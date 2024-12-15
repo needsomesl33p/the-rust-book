@@ -7,7 +7,7 @@ fn main() {
 
     //  inclusive declaration
     //  not-inclusive declaration: gen_range(1..101)
-    let secret_number = rand::thread_rng().gen_range(1..=100); // by default variables ar inmutables
+    let secret_number = rand::thread_rng().gen_range(1..=100); // by default variables ar immutables
 
     loop {
         println!("Please input your guess.");
